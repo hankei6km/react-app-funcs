@@ -20,7 +20,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "credits": "sh -c 'NODE_ENV=production yarn --silent licenses generate-disclaimer > public/credits.txt'"
   },
   "eslintConfig": {
     "extends": "react-app"
